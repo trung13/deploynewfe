@@ -2,7 +2,9 @@
 1. Cài đặt môi trường
 
     ```bash
-    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
+    sudo apt-get update 
+    sudo apt-get install -y vim python3-pip curl git
+    pip3 install --upgrade pip
     pip install docker-compose
     ```
 
@@ -16,7 +18,7 @@
 3. Clone repo
 
     ```bash
-    git clone -b 2.0 https://github.com/trunganh13/codevtDeploy.git && cd codevtDeploy
+    git clone 
     ```
 
 4. Khởi động
